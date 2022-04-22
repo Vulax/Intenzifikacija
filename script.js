@@ -30,7 +30,7 @@ function shlong(event) {
     template["I"] += parseFloat(amount).toFixed(2).replace(".",",");
     var data = encodeURIComponent(stringifyTemplate(template))
 
-    window.open(`http://api.qrserver.com/v1/create-qr-code/?data=${data}&size=1000x1000`)
+    window.open(`http://api.qrserver.com/v1/create-qr-code/?data=${data}&size=500x500&margin=5`)
     template["I"] = "RSD";
     event.preventDefault();
 }
