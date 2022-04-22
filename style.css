@@ -28,7 +28,7 @@ body{
 .logo{
     width:200px;
     margin-top:-70px;
-    margin-left:-75px;
+    margin-left:-55px;
 }
 
 #form{
@@ -39,7 +39,7 @@ body{
     border-radius: 20px;
     box-shadow:0 0 45px -18px #000;
     padding: 20px 30px;
-    max-width:calc(100vw - 40px);
+
     box-sizing:border-box;
     position:relative;
   
