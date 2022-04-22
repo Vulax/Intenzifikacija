@@ -1,0 +1,91 @@
+@import url(//db.onlinewebfonts.com/c/396a25718aa788c4df0b49b11e6a248d?family=HelveticaNeueW02-47LtCn);
+body{
+    margin:0;
+    font-family: "HelveticaNeueW02-47LtCn";
+    font-weight:300;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 1px;
+}
+
+#navbar{
+    position:fixed;
+    top:0;
+    height:60px;
+    width:100vw;
+    background-color: #ea600e;
+    padding:0;
+    text-align:center;
+}
+
+.menu{
+    width:30px;
+    float:left;
+    margin-top:15px;
+    filter: invert(100%);
+    margin-left:10px;
+}
+
+.logo{
+    width:200px;
+    margin-top:-70px;
+    margin-left:-75px;
+}
+
+#form{
+    margin:calc(50vh - 165px) auto;
+    width:340px;
+    height:370px;
+    background-color: #f3f1f1;
+    border-radius: 20px;
+    box-shadow:0 0 45px -18px #000;
+    padding: 20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    position:relative;
+  
+}
+
+h2{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color: black;
+    border-bottom:3px solid black;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    transition: all .3s;
+    border-bottom:1px solid rgb(156, 155, 155);
+}
+
+input:focus{
+    border-bottom:2px solid rgb(156, 155, 155);
+}
+
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    color:#5a5a5a
+}
+
+button{
+    padding:8px 12px;
+    margin: 8px 0px;
+    cursor: pointer;
+    background:0;
+    transition:all .3;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    letter-spacing: 1.1px;
+    font-size:13px;
+    position:relative;
+    left:34%;
+}

@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Generisanje</title>
+    <link  rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
+<nav id="navbar">
+    <img src="menu-icon.png" class="menu"/>
+    <img src="Intesalogo.png" class="logo"/>
     
-
+</nav>
 
 <form id="form" name="form">
-    <label for="people">Broj ljudi: </label>
-    <input id="people" min="1" value="2" type="number" name="people"> 
+    <h2>Podelite račun</h2>
+    <p>Broj ljudi: </p>
+    <input id="people" min="1" value="2" type="text" name="people" inputmode="numeric" placeholder="Broj ljudi"> 
 
-    <label for="cost">Cena: </label>
-    <input id="cost" min="0" value="0" type="number" name="cost">
-
-    <button type="submit">Generate</button>
+    <p>Cena: </p>
+    <input id="cost" min="0" value="0" type="text" name="cost" inputmode="numeric" placeholder="Cena">
+    <br><br>
+    <button type="submit">Generiši</button>
 </form>
 
 <script src="script.js"> </script>
