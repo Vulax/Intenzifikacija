@@ -31,7 +31,7 @@ function shlong(event) {
     var data = encodeURIComponent(stringifyTemplate(template))
 
     window.open(`http://api.qrserver.com/v1/create-qr-code/?data=${data}&size=1000x1000`)
-
+    template["I"] = "RSD";
     event.preventDefault();
 }
 
