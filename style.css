@@ -1,7 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/396a25718aa788c4df0b49b11e6a248d?family=HelveticaNeueW02-47LtCn);
 body{
     margin:0;
-    font-family: "HelveticaNeueW02-47LtCn";
+    font-family: "HelveticaNeueW02-47LtCn" monospace;
     font-weight:300;
     text-rendering: optimizeLegibility;
     letter-spacing: 1px;
