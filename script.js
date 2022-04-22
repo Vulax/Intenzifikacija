@@ -19,7 +19,7 @@ function stringifyTemplate() {
     }).reduce((final, current) => final += current)
 }
 
-function shlog(event) {
+function shlong(event) {
     var formValues = { 
         people: parseInt(event.target.elements["people"].value),
         cost: parseInt(event.target.elements["cost"].value)
@@ -35,4 +35,4 @@ function shlog(event) {
     event.preventDefault();
 }
 
-form.addEventListener('submit', logSubmit);
+form.addEventListener('submit', shlong);
