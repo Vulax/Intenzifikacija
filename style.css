@@ -34,15 +34,21 @@ body{
 #form{
     margin:calc(50vh - 185px) auto;
     width:340px;
-    height:370px;
+    height:400px;
     background-color: #F8F8F8;
     border-radius: 20px;
     box-shadow:0 0 45px -18px #000;
     padding: 20px 30px;
     max-width:calc(100vw - 40px);
     box-sizing:border-box;
- 
 }
+
+@media screen and (max-width: 928px) {
+    #form{
+        margin: calc(40vh - 185px) auto;
+    }
+}
+
 
 h2{
     margin:10px 0;
