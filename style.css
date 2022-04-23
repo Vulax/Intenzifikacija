@@ -32,10 +32,10 @@ body{
 }
 
 #form{
-    margin:calc(50vh - 165px) auto;
+    margin:calc(50vh - 185px) auto;
     width:340px;
     height:370px;
-    background-color: #F9F9F9;
+    background-color: #F8F8F8;
     border-radius: 20px;
     box-shadow:0 0 45px -18px #000;
     padding: 20px 30px;
